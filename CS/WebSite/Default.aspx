@@ -1,0 +1,17 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+<%@ Register src="ImageLink.ascx" tagname="ImageLink" tagprefix="uc" %>
+<%@ Register Assembly="DevExpress.Web.v13.1, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ASPxHyperLink with text and image</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <uc:ImageLink ID="uc1" NavigateUrl="~/Default.aspx" ImageSrc="./Images/memo.png" LinkText="Refresh" runat="server" />
+        <uc:ImageLink ID="uc2" NavigateUrl="https://maps.google.com/" runat="server" ImageSrc="./Images/localization.png" LinkText="Maps" />
+    </form>
+</body>
+</html>

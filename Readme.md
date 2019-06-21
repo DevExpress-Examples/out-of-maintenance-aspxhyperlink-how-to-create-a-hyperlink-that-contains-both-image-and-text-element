@@ -7,6 +7,9 @@
 * [ImageLink.ascx.cs](./CS/WebSite/ImageLink.ascx.cs) (VB: [ImageLink.ascx.vb](./VB/WebSite/ImageLink.ascx.vb))
 <!-- default file list end -->
 # ASPxHyperLink - How to create a hyperlink that contains both image and text elements
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4972/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to create a custom user control with an ASPxHyperLink that contains both image and text elements.</p>
